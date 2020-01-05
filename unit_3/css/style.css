@@ -39,7 +39,6 @@ hr {
 }
 
 #column6 {
-  	background-color: blue;
 	width: 600px;
 	height: 496px;
 	float: right;
@@ -58,7 +57,7 @@ hr {
 	width: 600px;
 	height: 496px;
 	text-align: center;
-	float: left;
+	float: right;
 }
 
 h1 { 
@@ -90,6 +89,7 @@ p {
 #signupbar {
  	background-color: lightblue;
 	width: 1200px;
-	height: 250px;
+	height: 200px;
 	text-align: center;
+	float: left;
 }
