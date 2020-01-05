@@ -12,10 +12,14 @@ hr {
   border-color: red;
 }
 
+.barcontainer1 {
+	width: 1200px;
+}
+
 #column1 {
-  width: 50%;
-  height: 496px;
-  object-fit: cover; 
+  	width: 600px;
+  	height: 496px;
+  	float: left; 
 }
 
 #column2 {
@@ -23,6 +27,7 @@ hr {
 	width: 600px;
 	height: 496px;
 	text-align: center;
+	float: right; 
 }
 
 #column3 {
@@ -30,6 +35,14 @@ hr {
 	width: 600px;
 	height: 496px;
 	text-align: center;
+	float: left;
+}
+
+#column6 {
+  	background-color: blue;
+	width: 600px;
+	height: 496px;
+	float: right;
 }
 
 #column4 {
@@ -37,6 +50,7 @@ hr {
 	width: 600px;
 	height: 496px;
 	text-align: center;
+	float: right;
 }
 
 #column5 {
@@ -44,10 +58,17 @@ hr {
 	width: 600px;
 	height: 496px;
 	text-align: center;
+	float: left;
 }
+
 h1 { 
     color: #fff; 
     font-style: italic;
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
+h2 { 
+    color: #fff; 
     font-family: Helvetica, Arial, sans-serif; 
 }
 
@@ -64,4 +85,11 @@ h5 {
 p { 
     color: #fff; 
     font-family: Helvetica, Arial, sans-serif; 
+}
+
+#signupbar {
+ 	background-color: lightblue;
+	width: 1200px;
+	height: 250px;
+	text-align: center;
 }
