@@ -32,6 +32,19 @@ hr {
 	text-align: center;
 }
 
+#column4 {
+  	background-color: green;
+	width: 600px;
+	height: 496px;
+	text-align: center;
+}
+
+#column5 {
+  	background-color: blue;
+	width: 600px;
+	height: 496px;
+	text-align: center;
+}
 h1 { 
     color: #fff; 
     font-style: italic;
