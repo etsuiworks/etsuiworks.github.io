@@ -4,19 +4,20 @@
 	box-sizing: border-box;
 }
 
-.element {
+.pagewidth {
+	width: 1200px;
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
+	transform: translateY(-50%)
+	overflow: hidden;
 }
 
 .navigationbar {
-	width: 1200px;
-	height: 100px;
+	height: 60px;
 }
 
 .navigationbar:after {
-	content: "eric";
+	content: "";
 	display: block;
 	height: 0;
 	clear: both;
@@ -26,12 +27,11 @@
 	float: left;
 }
 
-
 li {
 	display: inline-block;
 	width: 80px;
 	text-align: center;
-	margin: 40px;
+	margin: 40px 40px 10px 40px;
 }
 
 a {
@@ -50,8 +50,11 @@ hr {
   border-color: red;
 }
 
-.barcontainer1 {
-	width: 1200px;
+.column2 {
+	width: 50%;
+	height: 496px;
+	background-color: dimgrey;
+	overflow: hidden;
 }
 
 .barcontainer1:after {
@@ -77,6 +80,10 @@ hr {
 	height: 496px;
 	text-align: center;
 	float: right;
+}
+
+.clear {
+  	clear: both;
 }
 
 #column3 {
@@ -112,7 +119,9 @@ hr {
 h1 { 
     color: #fff; 
     font-style: italic;
-    font-family: Helvetica, Arial, sans-serif; 
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px; 
+    Font-size: 36px;
 }
 
 h2 { 
@@ -161,5 +170,9 @@ p {
 	font-family: Helvetica, Arial, sans-serif;
 	color: dimgray;
 	clear: both;
+}
+
+.clear {
+  	clear: both;
 }
 
