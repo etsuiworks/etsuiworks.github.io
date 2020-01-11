@@ -1,10 +1,48 @@
-.navigation {
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.element {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.navigationbar {
+	width: 1200px;
+	height: 100px;
+}
+
+.navigationbar:after {
+	content: "eric";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.logo {
+	float: left;
+}
+
+
+li {
 	display: inline-block;
-	width: 125px;
+	width: 80px;
 	text-align: center;
-	margin: 10px;
+	margin: 40px;
+}
+
+a {
 	font-family: Helvetica, Arial, sans-serif;
-	color: dimgray;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black
+}
+
+ul {
+	list-style-type: none;
 }
 
 hr {
@@ -14,6 +52,17 @@ hr {
 
 .barcontainer1 {
 	width: 1200px;
+}
+
+.barcontainer1:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.hero {
+	float: left;
 }
 
 #column1 {
@@ -111,4 +160,6 @@ p {
 	margin: 10px;
 	font-family: Helvetica, Arial, sans-serif;
 	color: dimgray;
+	clear: both;
 }
+
