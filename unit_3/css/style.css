@@ -43,7 +43,7 @@ a {
 	font-family: Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: black
+	color: black;
 }
 
 hr {
@@ -51,20 +51,14 @@ hr {
   border-color: red;
 }
 
-.barcontainer1:after {
-	content: "";
-	display: block;
-	height: 0;
-	clear: both;
-}
-
 .hero {
 	float: left;
+	width: 50%;
+	image-rendering: cover;
 }
 
 .mary {
 	float: right;
-	background-color: pink;
 	width: 50%;
 	image-rendering: cover;
 }
@@ -72,17 +66,21 @@ hr {
 .david {
 	float: left;
 	width: 50%;
+	image-rendering: cover;
 }
 
 .leo {
 	float: right;
 	width: 50%;
+	image-rendering: cover;
 }
 
 .column2 {
 	width: 50%;
 	height: 496px;
-	background-color: dimgrey;
+	text-align: left;
+	background-color: dimgray;
+	padding: 30px;
 	overflow: hidden;
 }
 
@@ -148,8 +146,7 @@ hr {
 .heroheadline { 
     color: #fff; 
     font-style: bold;
-    font-family: Helvetica, Arial, sans-serif;
-    padding: 30px; 
+    font-family: Helvetica, Arial, sans-serif; 
     Font-size: 48px;
 }
 
@@ -206,18 +203,16 @@ p {
 }
 
 .footerbar {
-	height: 500px;
-	width: auto;
 	text-align: left;
 	padding: 20px;
 	overflow: hidden;
 	background-color: white;
-	border: red;
+	border: yellow;
 }
 
 .footerbar:after {
-	content: "eric";
+	content: "";
 	display: block;
-	height: 100;
+	height: 0;
 	clear: both;
 }
