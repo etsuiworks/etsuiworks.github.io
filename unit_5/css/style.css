@@ -1,0 +1,179 @@
+* {
+	margin: 0em; 
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1.25em;
+}
+
+.navigationbar {
+  	border-bottom: solid red;
+}
+
+.navigationbar:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.column {
+	position: relative;
+}
+
+.logo {
+	float: left;
+	padding: 0 30px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	padding: 20px 20px 10px 20px;
+}
+
+a {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+.column:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.column:nth-of-type(even) img {
+	float: right;
+	width: 50%;
+}
+
+.column:nth-of-type(odd) img {
+	float: left;
+	width: 50%;
+}
+
+.column:nth-of-type(even) div {
+	left: 25%;
+}
+
+.column > div {
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 600px;
+	clear: both;
+}
+
+.herocopy {
+	background: dimgray;
+}
+
+
+.columnmary {
+  	background-color: pink;
+}
+
+.columndavid {
+  	background-color: green; 
+}
+
+.columnleo {
+  	background-color: blue;
+  	border-bottom: solid red;
+}
+
+.heroheadline { 
+    color: #fff; 
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 600px;
+	clear: both;
+	border: 1px black;
+}
+
+h1 { 
+    color: #fff; 
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    line-height: 1.25em;
+    padding: 20px;
+}
+
+h2 { 
+    color: #fff; 
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px; 
+}
+
+h3 { 
+    color: #fff; 
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+}
+
+h4 { 
+    color: white; 
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+}
+
+h5 { 
+    color: gray; 
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+}
+
+p { 
+    color: #fff; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.signupbar {
+ 	background-color: lightblue;
+	text-align: center;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.signupbar:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.readmore {
+ 	color: white; 
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+}
+
+.footerbar {
+	margin: 0 auto; 
+	text-align: left;
+	vertical-align: text-top;
+	background-color: white;
+	padding: 20px;
+}
+
+.footerbar:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
