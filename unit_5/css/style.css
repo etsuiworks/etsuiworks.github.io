@@ -16,10 +16,6 @@
 	clear: both;
 }
 
-.column {
-	position: relative;
-}
-
 .logo {
 	float: left;
 	padding: 0 30px;
@@ -41,6 +37,10 @@ a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: black;
+}
+
+.column {
+	position: relative;
 }
 
 .column:after {
@@ -78,7 +78,6 @@ a {
 	background: dimgray;
 }
 
-
 .columnmary {
   	background-color: pink;
 }
@@ -109,44 +108,29 @@ a {
 h1 { 
     color: #fff; 
     font-family: 'Playfair Display', serif;
-    font-size: 28px;
-    line-height: 1.25em;
     padding: 20px;
 }
 
-h2 { 
-    color: #fff; 
+h2, h3, h4, h5, p, .readmore { 
     font-family: 'Source Sans Pro', sans-serif;
     padding: 20px; 
 }
 
-h3 { 
-    color: #fff; 
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 20px;
-}
-
-h4 { 
+h2, h4 { 
     color: white; 
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 20px;
 }
 
 h5 { 
     color: gray; 
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 20px;
 }
 
-p { 
+p, h3, .readmore { 
     color: #fff; 
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .signupbar {
  	background-color: lightblue;
 	text-align: center;
-	overflow: hidden;
 	padding: 20px;
 }
 
@@ -155,12 +139,6 @@ p {
 	display: block;
 	height: 0;
 	clear: both;
-}
-
-.readmore {
- 	color: white; 
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 20px;
 }
 
 .footerbar {
