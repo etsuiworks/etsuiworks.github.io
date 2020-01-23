@@ -131,7 +131,7 @@ p, h3, .readmore {
 .signupbar {
  	background-color: lightblue;
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 }
 
 .signupbar:after {
