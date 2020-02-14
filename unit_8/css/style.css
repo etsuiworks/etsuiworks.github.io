@@ -1,0 +1,194 @@
+* {
+	margin: 0em; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navigationbar {
+  	border-bottom: solid red;
+}
+
+.navigationbar:after, .column:after, .signupbar:after, .footerbar:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	padding: 0 30px;
+}
+
+body {
+  font-size: 16px;
+}
+
+a {
+	display: inline-block;
+	padding: 40px 20px 0px 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	font-size: 1.5vw;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+.column {
+	position: relative;
+}
+
+.column:nth-of-type(even) img {
+	float: right;
+	width: 50%;
+}
+
+.column:nth-of-type(odd) img {
+	float: left;
+	width: 50%;
+}
+
+.column:nth-of-type(even) div {
+	left: 25%;
+}
+
+.column > div {
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 600px;
+	clear: both;
+}
+
+.herocopy {
+	background: dimgray;
+}
+
+.columnmary {
+  	background-color: pink;
+}
+
+.columndavid {
+  	background-color: green; 
+}
+
+.columnleo {
+  	background-color: blue;
+  	border-bottom: solid red;
+}
+
+.heroheadline { 
+    color: #fff; 
+    font-family: 'Playfair Display', serif;
+    font-size: 4vw;
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 600px;
+	clear: both;
+	border: 1px black;
+}
+
+h1 { 
+    color: #fff; 
+    font-family: 'Playfair Display', serif;
+    padding: 20px;
+    font-size: 3vw;
+}
+
+h2, h3, h4, h5, p, .readmore { 
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px; 
+    line-height: 1.25em;
+}
+
+h2, h4, p, h3, .readmore { 
+    color: white; 
+}
+
+h5 { 
+    color: black;
+    padding: 10px;
+    font-size: 1vw;  
+}
+
+.signupbar {
+ 	background-color: teal;
+	text-align: center;
+	padding: 20px;
+}
+
+.footerbar {
+	margin: 0 auto; 
+	text-align: left;
+	vertical-align: text-top;
+	background-color: white;
+	padding: 20px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	.column { 
+		float: none;
+		display: block;
+		width: 100%;
+	}
+
+	.logo { 
+		float: none;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 50%;
+	}
+
+	.heroheadline { 
+    	font-size: 4vw;
+	}
+
+	a {
+		display: block;
+		padding: 10px;
+		text-align: center;
+		font-size: 2vw;
+	}
+
+	h1 { 
+    	font-size: 3vw;
+    	padding: 10px;
+	}
+
+	h2 { 
+		display: block;
+ 		font-size: 2.5vw;
+ 		max-width: 100%;
+	}
+	
+	h3 { 
+ 		font-size: 2vw;
+	}
+
+	h4, h5, .readmore, p { 
+ 		font-size: 1.75vw;
+	}
+
+	.readmore { 
+ 		font-size: 1.75vw;
+
+	}
+
+	.signupbar, .footerbar {
+	padding: 10px;
+	text-align: center;
+	}
+
+}
