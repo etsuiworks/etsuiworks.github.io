@@ -5,7 +5,7 @@
 }
 
 .navigationbar {
-  	border-bottom: solid red;
+  	border-bottom: #FF2929;
 }
 
 .navigationbar:after, .column:after, .signupbar:after, .footerbar:after {
@@ -25,6 +25,7 @@ a {
 	padding: 40px 20px 0px 20px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
+	font-weight:700;
 	text-transform: uppercase;
 	color: black;
 }
@@ -65,7 +66,7 @@ a:hover {
 	background: #801414;
 }
 
-.columnmary {
+.columnmary, .columnaboutus {
   	background-color: #FF2929;
 }
 
@@ -79,6 +80,20 @@ a:hover {
 }
 
 .heroheadline { 
+    color: #fff; 
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 400px;
+	clear: both;
+	border: 1px black;
+}
+
+.aboutushero { 
     color: #fff; 
     font-family: 'Playfair Display', serif;
     font-size: 2.5em;
@@ -111,7 +126,7 @@ h2, h4, p, h3, .readmore {
 
 h5 { 
     color: black;
-    padding: 10px;
+    padding: 20px;
     font-size: 1em;  
 }
 
@@ -142,6 +157,7 @@ h5 {
 		position: initial;
 		width: 100%;
 		max-width: 100%;
+		padding: 10px;
 		transform: translate(0%, 0%);
 	}
 
